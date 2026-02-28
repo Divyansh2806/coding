@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"ostream": "cpp",
+			"istream": "cpp",
+			"iomanip": "cpp",
+			"stdio.h": "c",
+			"": "c"
+		},
+		"dataworkspace.excludedProjects": [
+			"HMS/HMS.sqlproj",
+			"coding/HMS/HMS.sqlproj",
+			"demo/demo.sqlproj",
+			"coding/demo/demo.sqlproj"
+		],
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default",
+					"enableSsl": "Disabled"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "mysql",
+				"database": "demo",
+				"username": "root"
+			}
+		]
+	}
+}
